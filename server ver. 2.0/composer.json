@@ -1,0 +1,21 @@
+{
+  "name": "UJy/server-img-resizer",
+  "description": "Server Image Resizer",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "type": "UJy`s development",
+  "authors": [
+    {
+      "name": "UJy",
+      "email": "ujy@ukr.net",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "/home/ujy/WORK/BACK_UP/lvivskiy-maettok_IMG_backUP/vendor"
+  },
+  "require" : {
+    "lciolecki/php-image-optimizer": "dev-master",
+    "tinify/tinify": "^1.4"
+  }
+}
