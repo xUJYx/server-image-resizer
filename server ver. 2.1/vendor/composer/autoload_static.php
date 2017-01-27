@@ -25,33 +25,11 @@ class ComposerStaticInit72acb54f6f563691e47bfc95b5f7faae
         ),
     );
 
-    public static $prefixesPsr0 = array (
-        'P' => 
-        array (
-            'PHPImageOptim' => 
-            array (
-                0 => __DIR__ . '/..' . '/bensquire/php-image-optim/src',
-            ),
-        ),
-        'E' => 
-        array (
-            'ExtlibTest' => 
-            array (
-                0 => __DIR__ . '/..' . '/lciolecki/php-image-optimizer/tests',
-            ),
-            'Extlib' => 
-            array (
-                0 => __DIR__ . '/..' . '/lciolecki/php-image-optimizer/src',
-            ),
-        ),
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit72acb54f6f563691e47bfc95b5f7faae::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit72acb54f6f563691e47bfc95b5f7faae::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit72acb54f6f563691e47bfc95b5f7faae::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

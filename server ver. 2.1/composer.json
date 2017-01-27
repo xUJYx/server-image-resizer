@@ -12,10 +12,9 @@
     }
   ],
   "config": {
-    "vendor-dir": "/home/ujy/WORK/BACK_UP/lvivskiy-maettok_IMG_backUP/vendor"
+    "vendor-dir": "./vendor"
   },
   "require" : {
-    "lciolecki/php-image-optimizer": "dev-master",
     "tinify/tinify": "^1.4"
   }
 }
