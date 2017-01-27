@@ -1,0 +1,20 @@
+{
+  "name": "UJy/server-img-resizer",
+  "description": "Server Image Resizer",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "type": "UJy`s development",
+  "authors": [
+    {
+      "name": "UJy",
+      "email": "ujy@ukr.net",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "./vendor"
+  },
+  "require" : {
+    "tinify/tinify": "^1.4"
+  }
+}
